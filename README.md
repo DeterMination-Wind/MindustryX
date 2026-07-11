@@ -55,6 +55,12 @@
   git submodule update --init --depth=10
   bash ./scripts/applyPatches.sh
   # Modify and commit inside work/Arc, or commit root-owned files in root
+<h1 align="center">
+  <a href="https://github.com/DeterMination-Wind/MindustryX/releases/latest"><img src="https://img.shields.io/github/v/release/DeterMination-Wind/MindustryX?display_name=release&label=Latest%20Release&color=green"></a>
+  <a href="https://github.com/DeterMination-Wind/MindustryX/releases"><img src="https://img.shields.io/github/downloads/DeterMination-Wind/MindustryX/total?label=Downloads&color=blue"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/DeterMination-Wind/MindustryX?label=License"></a>
+  <a href="https://github.com/DeterMination-Wind/MindustryX"><img src="https://img.shields.io/github/stars/DeterMination-Wind/MindustryX?style=flat&label=Star%20this%20mod!&color=yellow"></a>
+</h1>
   bash ./scripts/genPatches.sh
   # Commit generated patches or other root changes in repository root, then push and open PR.
 ```
